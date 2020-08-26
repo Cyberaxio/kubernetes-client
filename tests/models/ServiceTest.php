@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\Service;
+use Cyberaxio\Kubernetes\Models\Service;
 
 class ServiceTest extends TestCase
 {

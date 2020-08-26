@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\NetworkPolicy;
+use Cyberaxio\Kubernetes\Models\NetworkPolicy;
 
 class NetworkPolicyCollection extends Collection
 {

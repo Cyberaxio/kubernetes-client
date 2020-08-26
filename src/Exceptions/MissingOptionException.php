@@ -1,4 +1,4 @@
-<?php namespace Maclof\Kubernetes\Exceptions;
+<?php namespace Cyberaxio\Kubernetes\Exceptions;
 
 use Exception;
 

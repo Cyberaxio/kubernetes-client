@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\Service;
+use Cyberaxio\Kubernetes\Models\Service;
 
 class ServiceCollection extends Collection
 {

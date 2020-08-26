@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\Secret;
+use Cyberaxio\Kubernetes\Models\Secret;
 
 class SecretCollection extends Collection
 {

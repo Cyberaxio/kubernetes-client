@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\SecretCollection;
+use Cyberaxio\Kubernetes\Collections\SecretCollection;
 
 class SecretCollectionTest extends TestCase
 {

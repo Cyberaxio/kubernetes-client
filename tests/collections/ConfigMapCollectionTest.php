@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\ConfigMapCollection;
+use Cyberaxio\Kubernetes\Collections\ConfigMapCollection;
 
 class ConfigMapCollectionTest extends TestCase
 {

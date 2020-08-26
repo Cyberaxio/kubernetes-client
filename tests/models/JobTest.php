@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\Job;
+use Cyberaxio\Kubernetes\Models\Job;
 
 class JobTest extends TestCase
 {

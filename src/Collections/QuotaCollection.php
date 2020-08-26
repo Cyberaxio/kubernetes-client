@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\QuotaModel;
+use Cyberaxio\Kubernetes\Models\QuotaModel;
 
 class QuotaCollection extends Collection
 {

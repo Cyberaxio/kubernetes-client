@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\CronJob;
+use Cyberaxio\Kubernetes\Models\CronJob;
 
 class CronJobTest extends TestCase
 {

@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\Endpoint;
+use Cyberaxio\Kubernetes\Models\Endpoint;
 
 class EndpointCollection extends Collection
 {

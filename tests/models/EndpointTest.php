@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\Endpoint;
+use Cyberaxio\Kubernetes\Models\Endpoint;
 
 class EndpointTest extends TestCase
 {

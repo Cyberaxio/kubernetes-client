@@ -1,17 +1,17 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
 use Closure;
-use Maclof\Kubernetes\Models\Model;
-use Maclof\Kubernetes\Models\DeleteOptions;
-use Maclof\Kubernetes\Repositories\Utils\JSONStreamingParser;
-use Maclof\Kubernetes\Repositories\Utils\JSONStreamingListener;
+use Cyberaxio\Kubernetes\Models\Model;
+use Cyberaxio\Kubernetes\Models\DeleteOptions;
+use Cyberaxio\Kubernetes\Repositories\Utils\JSONStreamingParser;
+use Cyberaxio\Kubernetes\Repositories\Utils\JSONStreamingListener;
 
 abstract class Repository
 {
 	/**
 	 * The client.
 	 *
-	 * @var \Maclof\Kubernetes\Client
+	 * @var \Cyberaxio\Kubernetes\Client
 	 */
 	protected $client;
 
@@ -46,7 +46,7 @@ abstract class Repository
 	/**
 	 * The constructor.
 	 *
-	 * @param \Maclof\Kubernetes\Client $client
+	 * @param \Cyberaxio\Kubernetes\Client $client
 	 */
 	public function __construct($client)
 	{
@@ -86,7 +86,7 @@ abstract class Repository
 		}
 
 		$className = str_replace('Repository', '', class_basename($this));
-		$classPath = 'Maclof\Kubernetes\Models\\' . $className;
+		$classPath = 'Cyberaxio\Kubernetes\Models\\' . $className;
 
 		if (!class_exists($classPath)) {
 			return;
@@ -100,7 +100,7 @@ abstract class Repository
 	/**
 	 * Create a new model.
 	 *
-	 * @param  \Maclof\Kubernetes\Models\Model $model
+	 * @param  \Cyberaxio\Kubernetes\Models\Model $model
 	 * @return array
 	 */
 	public function create(Model $model)
@@ -111,7 +111,7 @@ abstract class Repository
 	/**
 	 * Update a model.
 	 *
-	 * @param  \Maclof\Kubernetes\Models\Model $model
+	 * @param  \Cyberaxio\Kubernetes\Models\Model $model
 	 * @return array
 	 */
 	public function update(Model $model)
@@ -122,7 +122,7 @@ abstract class Repository
 	/**
 	 * Patch a model.
 	 *
-	 * @param \Maclof\Kubernetes\Models\Model $model
+	 * @param \Cyberaxio\Kubernetes\Models\Model $model
 	 * @return array
 	 */
 	public function patch(Model $model)
@@ -135,7 +135,7 @@ abstract class Repository
      *
      * Creates a new api object if not exists, or patch.
      *
-     * @param \Maclof\Kubernetes\Models\Model $model
+     * @param \Cyberaxio\Kubernetes\Models\Model $model
      * @return array
      */
 	public function apply(Model $model)
@@ -152,8 +152,8 @@ abstract class Repository
 	/**
 	 * Delete a model.
 	 *
-	 * @param  \Maclof\Kubernetes\Models\Model         $model
-	 * @param  \Maclof\Kubernetes\Models\DeleteOptions $options
+	 * @param  \Cyberaxio\Kubernetes\Models\Model         $model
+	 * @param  \Cyberaxio\Kubernetes\Models\DeleteOptions $options
 	 * @return array
 	 */
 	public function delete(Model $model, DeleteOptions $options = null)
@@ -165,7 +165,7 @@ abstract class Repository
 	 * Delete a model by name.
 	 *
 	 * @param  string                                  $name
-	 * @param  \Maclof\Kubernetes\Models\DeleteOptions $options
+	 * @param  \Cyberaxio\Kubernetes\Models\DeleteOptions $options
 	 * @return array
 	 */
 	public function deleteByName($name, DeleteOptions $options = null)
@@ -179,7 +179,7 @@ abstract class Repository
 	 * Set the label selector.
 	 *
 	 * @param  array $labelSelector
-	 * @return \Maclof\Kubernetes\Repositories\Repository
+	 * @return \Cyberaxio\Kubernetes\Repositories\Repository
 	 */
 	public function setLabelSelector(array $labelSelector)
 	{
@@ -205,7 +205,7 @@ abstract class Repository
 	 * Set the field selector.
 	 *
 	 * @param  array $fieldSelector
-	 * @return \Maclof\Kubernetes\Repositories\Repository
+	 * @return \Cyberaxio\Kubernetes\Repositories\Repository
 	 */
 	public function setFieldSelector(array $fieldSelector)
 	{
@@ -263,7 +263,7 @@ abstract class Repository
 	/**
 	 * Find the first item.
 	 *
-	 * @return \Maclof\Kubernetes\Models\Model|null
+	 * @return \Cyberaxio\Kubernetes\Models\Model|null
 	 */
 	public function first()
 	{
@@ -273,7 +273,7 @@ abstract class Repository
 	/**
 	 * Watch a model for changes.
 	 *
-	 * @param  \Maclof\Kubernetes\Models\Model $model
+	 * @param  \Cyberaxio\Kubernetes\Models\Model $model
 	 * @param  \Closure $closure
 	 * @param  array $query
 	 * @return void
@@ -322,7 +322,7 @@ abstract class Repository
 	 * Create a collection of models from the response.
 	 *
 	 * @param  array $response
-	 * @return \Maclof\Kubernetes\Collections\Collection
+	 * @return \Cyberaxio\Kubernetes\Collections\Collection
 	 */
 	abstract protected function createCollection($response);
 }

@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\ReplicaSetCollection;
+use Cyberaxio\Kubernetes\Collections\ReplicaSetCollection;
 
 class ReplicaSetCollectionTest extends TestCase
 {

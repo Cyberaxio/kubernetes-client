@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\CronJob;
+use Cyberaxio\Kubernetes\Models\CronJob;
 
 class CronJobCollection extends Collection
 {

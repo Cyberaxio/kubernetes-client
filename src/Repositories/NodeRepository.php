@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\NodeCollection;
+use Cyberaxio\Kubernetes\Collections\NodeCollection;
 
 class NodeRepository extends Repository
 {

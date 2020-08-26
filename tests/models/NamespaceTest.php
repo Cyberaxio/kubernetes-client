@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\NamespaceModel;
+use Cyberaxio\Kubernetes\Models\NamespaceModel;
 
 class NamespaceTest extends TestCase
 {

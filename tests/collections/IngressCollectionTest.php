@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\IngressCollection;
+use Cyberaxio\Kubernetes\Collections\IngressCollection;
 
 class IngressCollectionTest extends TestCase
 {

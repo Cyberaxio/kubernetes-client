@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\DeploymentCollection;
+use Cyberaxio\Kubernetes\Collections\DeploymentCollection;
 
 class DeploymentCollectionTest extends TestCase
 {

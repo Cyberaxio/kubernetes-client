@@ -1,7 +1,7 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Models\Pod;
-use Maclof\Kubernetes\Collections\PodCollection;
+use Cyberaxio\Kubernetes\Models\Pod;
+use Cyberaxio\Kubernetes\Collections\PodCollection;
 
 class PodRepository extends Repository
 {
@@ -15,7 +15,7 @@ class PodRepository extends Repository
 	/**
 	 * Get the logs for a pod.
 	 *
-	 * @param  \Maclof\Kubernetes\Models\Pod $pod
+	 * @param  \Cyberaxio\Kubernetes\Models\Pod $pod
 	 * @param  array $options
 	 * @return string
 	 */
@@ -29,7 +29,7 @@ class PodRepository extends Repository
 	/**
 	 * Execute a command on a pod.
 	 *
-	 * @param  \Maclof\Kubernetes\Models\Pod $pod
+	 * @param  \Cyberaxio\Kubernetes\Models\Pod $pod
 	 * @param  array $options
 	 * @return string
 	 */

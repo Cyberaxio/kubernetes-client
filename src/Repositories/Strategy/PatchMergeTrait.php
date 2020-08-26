@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories\Strategy;
+<?php namespace Cyberaxio\Kubernetes\Repositories\Strategy;
 
-use Maclof\Kubernetes\Models\Model;
+use Cyberaxio\Kubernetes\Models\Model;
 
 trait PatchMergeTrait {
 

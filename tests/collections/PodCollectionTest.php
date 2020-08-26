@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\PodCollection;
+use Cyberaxio\Kubernetes\Collections\PodCollection;
 
 class PodCollectionTest extends TestCase
 {

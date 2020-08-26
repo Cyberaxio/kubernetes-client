@@ -59,7 +59,7 @@ $ composer require maclof/kubernetes-client
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Maclof\Kubernetes\Client;
+use Cyberaxio\Kubernetes\Client;
 
 $client = new Client([
 	'master' => 'http://master.mycluster.com',
@@ -147,7 +147,7 @@ $client->things(); //ThingRepository
 ### Create/Update a Replication Controller
 The below example uses an array to specify the replication controller's attributes. You can specify the attributes either as an array, JSON encoded string or a YAML encoded string. The second parameter to the model constructor is the data type and defaults to array.
 ```php
-use Maclof\Kubernetes\Models\ReplicationController;
+use Cyberaxio\Kubernetes\Models\ReplicationController;
 
 $replicationController = new ReplicationController([
 	'metadata' => [
@@ -200,7 +200,7 @@ $client->replicationControllers()->delete($replicationController);
 You can also specify options when performing a deletion, eg. to perform [cascading delete]( https://kubernetes.io/docs/concepts/workloads/controllers/garbage-collection/#setting-the-cascading-deletion-policy)
 
 ```php
-use Maclof\Kubernetes\Models\DeleteOptions;
+use Cyberaxio\Kubernetes\Models\DeleteOptions;
 
 $client->replicationControllers()->delete(
 	$replicationController,

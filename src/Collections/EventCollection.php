@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\Event;
+use Cyberaxio\Kubernetes\Models\Event;
 
 class EventCollection extends Collection
 {

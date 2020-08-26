@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\ReplicaSet;
+use Cyberaxio\Kubernetes\Models\ReplicaSet;
 
 class ReplicaSetCollection extends Collection
 {

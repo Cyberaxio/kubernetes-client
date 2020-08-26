@@ -1,4 +1,4 @@
-<?php namespace Maclof\Kubernetes\Repositories\Utils;
+<?php namespace Cyberaxio\Kubernetes\Repositories\Utils;
 
 class JSONStreamingParserHelper
 {

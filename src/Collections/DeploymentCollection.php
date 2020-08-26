@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\Deployment;
+use Cyberaxio\Kubernetes\Models\Deployment;
 
 class DeploymentCollection extends Collection
 {

@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\QuotaCollection;
+use Cyberaxio\Kubernetes\Collections\QuotaCollection;
 
 class QuotaRepository extends Repository
 {

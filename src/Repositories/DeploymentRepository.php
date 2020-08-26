@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\DeploymentCollection;
+use Cyberaxio\Kubernetes\Collections\DeploymentCollection;
 
 class DeploymentRepository extends Repository
 {

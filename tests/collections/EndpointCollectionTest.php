@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\EndpointCollection;
+use Cyberaxio\Kubernetes\Collections\EndpointCollection;
 
 class EndpointCollectionTest extends TestCase
 {

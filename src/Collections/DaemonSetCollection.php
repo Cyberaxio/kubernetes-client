@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\DaemonSet;
+use Cyberaxio\Kubernetes\Models\DaemonSet;
 
 class DaemonSetCollection extends Collection
 {

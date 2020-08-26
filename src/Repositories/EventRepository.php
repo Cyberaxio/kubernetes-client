@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\EventCollection;
+use Cyberaxio\Kubernetes\Collections\EventCollection;
 
 class EventRepository extends Repository
 {

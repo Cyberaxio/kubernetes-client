@@ -1,4 +1,4 @@
-<?php namespace Maclof\Kubernetes\Repositories\Utils;
+<?php namespace Cyberaxio\Kubernetes\Repositories\Utils;
 
 use GuzzleHttp\Psr7\Stream;
 
@@ -104,7 +104,7 @@ class JSONStreamingParser
 	 * The constructor.
 	 * 
 	 * @param \GuzzleHttp\Psr7\Stream $stream
-	 * @param \Maclof\Kubernetes\Repositories\Utils\JSONStreamingListener $listener
+	 * @param \Cyberaxio\Kubernetes\Repositories\Utils\JSONStreamingListener $listener
 	 * @param string $lineEnding
 	 * @param bool|boolean $emitWhitespace
 	 * @param int|integer $bufferSize

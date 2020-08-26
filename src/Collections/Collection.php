@@ -1,4 +1,4 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
 use Illuminate\Support\Collection as IlluminateCollection;
 

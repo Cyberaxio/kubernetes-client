@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\EndpointCollection;
+use Cyberaxio\Kubernetes\Collections\EndpointCollection;
 
 class EndpointRepository extends Repository
 {

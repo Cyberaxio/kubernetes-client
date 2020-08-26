@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\ReplicationController;
+use Cyberaxio\Kubernetes\Models\ReplicationController;
 
 class ReplicationControllerTest extends TestCase
 {

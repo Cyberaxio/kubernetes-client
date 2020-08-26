@@ -1,7 +1,7 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\PersistentVolume;
-use Maclof\Kubernetes\Collections\Collection;
+use Cyberaxio\Kubernetes\Models\PersistentVolume;
+use Cyberaxio\Kubernetes\Collections\Collection;
 
 class PersistentVolumeCollection extends Collection
 {

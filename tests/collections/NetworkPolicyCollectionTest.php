@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\NetworkPolicyCollection;
+use Cyberaxio\Kubernetes\Collections\NetworkPolicyCollection;
 
 class NetworkPolicyCollectionTest extends TestCase
 {

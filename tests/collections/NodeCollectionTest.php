@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\NodeCollection;
+use Cyberaxio\Kubernetes\Collections\NodeCollection;
 
 class NodeCollectionTest extends TestCase
 {

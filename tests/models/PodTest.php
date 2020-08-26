@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\Pod;
+use Cyberaxio\Kubernetes\Models\Pod;
 
 class PodTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\IssuerCollection;
+use Cyberaxio\Kubernetes\Collections\IssuerCollection;
 
 class IssuerCollectionTest extends TestCase
 {

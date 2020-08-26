@@ -1,6 +1,6 @@
 <?php
 
-namespace Maclof\Kubernetes\Models;
+namespace Cyberaxio\Kubernetes\Models;
 
 use Flow\JSONPath\JSONPath;
 use TestCase;

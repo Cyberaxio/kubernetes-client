@@ -1,7 +1,7 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\IssuerCollection;
-use Maclof\Kubernetes\Repositories\Strategy\PatchMergeTrait;
+use Cyberaxio\Kubernetes\Collections\IssuerCollection;
+use Cyberaxio\Kubernetes\Repositories\Strategy\PatchMergeTrait;
 
 class IssuerRepository extends Repository
 {

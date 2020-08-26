@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\JobCollection;
+use Cyberaxio\Kubernetes\Collections\JobCollection;
 
 class JobRepository extends Repository
 {

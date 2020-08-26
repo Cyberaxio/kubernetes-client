@@ -1,4 +1,4 @@
-<?php namespace Maclof\Kubernetes;
+<?php namespace Cyberaxio\Kubernetes;
 
 use Exception;
 use InvalidArgumentException;
@@ -12,29 +12,29 @@ use GuzzleHttp\Psr7\Stream;
 use React\EventLoop\Factory as ReactFactory;
 use React\Socket\Connector as ReactSocketConnector;
 use Ratchet\Client\Connector as WebSocketConnector;
-use Maclof\Kubernetes\Exceptions\ApiServerException;
-use Maclof\Kubernetes\Repositories\CertificateRepository;
-use Maclof\Kubernetes\Exceptions\BadRequestException;
-use Maclof\Kubernetes\Repositories\ConfigMapRepository;
-use Maclof\Kubernetes\Repositories\CronJobRepository;
-use Maclof\Kubernetes\Repositories\DaemonSetRepository;
-use Maclof\Kubernetes\Repositories\DeploymentRepository;
-use Maclof\Kubernetes\Repositories\EndpointRepository;
-use Maclof\Kubernetes\Repositories\EventRepository;
-use Maclof\Kubernetes\Repositories\IngressRepository;
-use Maclof\Kubernetes\Repositories\JobRepository;
-use Maclof\Kubernetes\Repositories\NetworkPolicyRepository;
-use Maclof\Kubernetes\Repositories\NodeRepository;
-use Maclof\Kubernetes\Repositories\PersistentVolumeRepository;
-use Maclof\Kubernetes\Repositories\PersistentVolumeClaimRepository;
-use Maclof\Kubernetes\Repositories\PodRepository;
-use Maclof\Kubernetes\Repositories\QuotaRepository;
-use Maclof\Kubernetes\Repositories\ReplicaSetRepository;
-use Maclof\Kubernetes\Repositories\ReplicationControllerRepository;
-use Maclof\Kubernetes\Repositories\SecretRepository;
-use Maclof\Kubernetes\Repositories\ServiceRepository;
-use Maclof\Kubernetes\Repositories\NamespaceRepository;
-use Maclof\Kubernetes\Models\PersistentVolume;
+use Cyberaxio\Kubernetes\Exceptions\ApiServerException;
+use Cyberaxio\Kubernetes\Repositories\CertificateRepository;
+use Cyberaxio\Kubernetes\Exceptions\BadRequestException;
+use Cyberaxio\Kubernetes\Repositories\ConfigMapRepository;
+use Cyberaxio\Kubernetes\Repositories\CronJobRepository;
+use Cyberaxio\Kubernetes\Repositories\DaemonSetRepository;
+use Cyberaxio\Kubernetes\Repositories\DeploymentRepository;
+use Cyberaxio\Kubernetes\Repositories\EndpointRepository;
+use Cyberaxio\Kubernetes\Repositories\EventRepository;
+use Cyberaxio\Kubernetes\Repositories\IngressRepository;
+use Cyberaxio\Kubernetes\Repositories\JobRepository;
+use Cyberaxio\Kubernetes\Repositories\NetworkPolicyRepository;
+use Cyberaxio\Kubernetes\Repositories\NodeRepository;
+use Cyberaxio\Kubernetes\Repositories\PersistentVolumeRepository;
+use Cyberaxio\Kubernetes\Repositories\PersistentVolumeClaimRepository;
+use Cyberaxio\Kubernetes\Repositories\PodRepository;
+use Cyberaxio\Kubernetes\Repositories\QuotaRepository;
+use Cyberaxio\Kubernetes\Repositories\ReplicaSetRepository;
+use Cyberaxio\Kubernetes\Repositories\ReplicationControllerRepository;
+use Cyberaxio\Kubernetes\Repositories\SecretRepository;
+use Cyberaxio\Kubernetes\Repositories\ServiceRepository;
+use Cyberaxio\Kubernetes\Repositories\NamespaceRepository;
+use Cyberaxio\Kubernetes\Models\PersistentVolume;
 
 /**
  * @method NodeRepository nodes()
@@ -479,7 +479,7 @@ class Client
 	 * @param  string  $apiVersion
 	 * @param  array   $requestOptions
 	 * @return mixed
-	 * @throws \Maclof\Kubernetes\Exceptions\BadRequestException
+	 * @throws \Cyberaxio\Kubernetes\Exceptions\BadRequestException
 	 */
 	public function sendRequest($method, $uri, $query = [], $body = [], $namespace = true, $apiVersion = null, array $requestOptions = [])
 	{

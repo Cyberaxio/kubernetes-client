@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\Issuer;
+use Cyberaxio\Kubernetes\Models\Issuer;
 
 class IssuerTest extends TestCase
 {

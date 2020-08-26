@@ -1,4 +1,4 @@
-<?php namespace Maclof\Kubernetes;
+<?php namespace Cyberaxio\Kubernetes;
 
 class RepositoryRegistry implements \ArrayAccess, \Countable
 {

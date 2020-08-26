@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\RepositoryRegistry;
+use Cyberaxio\Kubernetes\RepositoryRegistry;
 
 class RepositoryRegistryTest extends TestCase
 {

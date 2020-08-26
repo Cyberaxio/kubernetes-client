@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\HorizontalPodAutoscalerCollection;
+use Cyberaxio\Kubernetes\Collections\HorizontalPodAutoscalerCollection;
 
 class HorizontalPodAutoscalerRepository extends Repository
 {

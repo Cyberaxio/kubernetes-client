@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\IngressCollection;
+use Cyberaxio\Kubernetes\Collections\IngressCollection;
 
 class IngressRepository extends Repository
 {

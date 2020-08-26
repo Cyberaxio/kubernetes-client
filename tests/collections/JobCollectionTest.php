@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\JobCollection;
+use Cyberaxio\Kubernetes\Collections\JobCollection;
 
 class JobCollectionTest extends TestCase
 {

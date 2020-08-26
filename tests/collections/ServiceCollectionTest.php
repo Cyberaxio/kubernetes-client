@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\ServiceCollection;
+use Cyberaxio\Kubernetes\Collections\ServiceCollection;
 
 class ServiceCollectionTest extends TestCase
 {

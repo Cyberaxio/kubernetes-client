@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\ConfigMapCollection;
+use Cyberaxio\Kubernetes\Collections\ConfigMapCollection;
 
 class ConfigMapRepository extends Repository
 {

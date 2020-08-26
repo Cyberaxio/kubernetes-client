@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\Ingress;
+use Cyberaxio\Kubernetes\Models\Ingress;
 
 class IngressTest extends TestCase
 {

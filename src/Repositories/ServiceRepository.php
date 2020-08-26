@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\ServiceCollection;
+use Cyberaxio\Kubernetes\Collections\ServiceCollection;
 
 class ServiceRepository extends Repository
 {

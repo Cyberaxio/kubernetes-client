@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\NamespaceCollection;
+use Cyberaxio\Kubernetes\Collections\NamespaceCollection;
 
 class NamespaceRepository extends Repository
 {

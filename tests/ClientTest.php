@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Client;
+use Cyberaxio\Kubernetes\Client;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Message\RequestInterface;
 use GuzzleHttp\Message\ResponseInterface;
@@ -68,6 +68,6 @@ class ClientTest extends TestCase
 	// 	$client = $this->getClient($mockGuzzleClient);
 	// 	$pods = $client->pods()->find();
 
-	// 	$this->assertInstanceOf('Maclof\Kubernetes\Collections\PodCollection', $pods);
+	// 	$this->assertInstanceOf('Cyberaxio\Kubernetes\Collections\PodCollection', $pods);
 	// }
 }

@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\Node;
+use Cyberaxio\Kubernetes\Models\Node;
 
 class NodeTest extends TestCase
 {

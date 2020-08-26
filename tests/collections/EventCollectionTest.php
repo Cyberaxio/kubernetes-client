@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\EventCollection;
+use Cyberaxio\Kubernetes\Collections\EventCollection;
 
 class EventCollectionTest extends TestCase
 {

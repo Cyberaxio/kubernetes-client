@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\SecretCollection;
+use Cyberaxio\Kubernetes\Collections\SecretCollection;
 
 class SecretRepository extends Repository
 {

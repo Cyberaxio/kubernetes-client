@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\HorizontalPodAutoscaler;
+use Cyberaxio\Kubernetes\Models\HorizontalPodAutoscaler;
 
 class HorizontalPodAutoscalerCollection extends Collection
 {

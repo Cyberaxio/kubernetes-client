@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\PersistentVolumeClaim;
+use Cyberaxio\Kubernetes\Models\PersistentVolumeClaim;
 
 class PersistentVolumeClaimCollection extends Collection
 {

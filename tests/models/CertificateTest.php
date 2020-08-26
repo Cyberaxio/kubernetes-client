@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\Certificate;
+use Cyberaxio\Kubernetes\Models\Certificate;
 
 class CertificateTest extends TestCase
 {

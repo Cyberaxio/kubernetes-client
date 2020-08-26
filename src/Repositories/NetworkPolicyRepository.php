@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\NetworkPolicyCollection;
+use Cyberaxio\Kubernetes\Collections\NetworkPolicyCollection;
 
 class NetworkPolicyRepository extends Repository
 {

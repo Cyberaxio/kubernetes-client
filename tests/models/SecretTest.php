@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\Secret;
+use Cyberaxio\Kubernetes\Models\Secret;
 
 class SecretTest extends TestCase
 {

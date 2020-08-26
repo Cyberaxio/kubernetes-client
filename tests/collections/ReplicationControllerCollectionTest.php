@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\ReplicationControllerCollection;
+use Cyberaxio\Kubernetes\Collections\ReplicationControllerCollection;
 
 class ReplicationControllerCollectionTest extends TestCase
 {

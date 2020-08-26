@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\NamespaceCollection;
+use Cyberaxio\Kubernetes\Collections\NamespaceCollection;
 
 class NamespaceCollectionTest extends TestCase
 {

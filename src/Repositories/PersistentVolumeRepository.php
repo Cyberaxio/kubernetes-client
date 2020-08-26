@@ -1,14 +1,14 @@
 <?php
-namespace Maclof\Kubernetes\Repositories;
+namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\PersistentVolumeCollection;
+use Cyberaxio\Kubernetes\Collections\PersistentVolumeCollection;
 
 class PersistentVolumeRepository extends Repository
 {
 	protected $uri = 'persistentvolumes';
 
 	/**
-	 * @see \Maclof\Kubernetes\Repositories\Repository::createCollection()
+	 * @see \Cyberaxio\Kubernetes\Repositories\Repository::createCollection()
 	 */
 	protected function createCollection($response)
 	{

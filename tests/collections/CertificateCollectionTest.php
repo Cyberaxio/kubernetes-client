@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Collections\CertificateCollection;
+use Cyberaxio\Kubernetes\Collections\CertificateCollection;
 
 class CertificateCollectionTest extends TestCase
 {

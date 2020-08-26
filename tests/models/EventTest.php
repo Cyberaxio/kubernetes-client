@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\Event;
+use Cyberaxio\Kubernetes\Models\Event;
 
 class EventTest extends TestCase
 {

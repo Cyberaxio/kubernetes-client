@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\Node;
+use Cyberaxio\Kubernetes\Models\Node;
 
 class NodeCollection extends Collection
 {

@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\ReplicationController;
+use Cyberaxio\Kubernetes\Models\ReplicationController;
 
 class ReplicationControllerCollection extends Collection
 {

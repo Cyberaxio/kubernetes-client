@@ -1,7 +1,7 @@
-<?php namespace Maclof\Kubernetes\Repositories;
+<?php namespace Cyberaxio\Kubernetes\Repositories;
 
-use Maclof\Kubernetes\Collections\CertificateCollection;
-use Maclof\Kubernetes\Repositories\Strategy\PatchMergeTrait;
+use Cyberaxio\Kubernetes\Collections\CertificateCollection;
+use Cyberaxio\Kubernetes\Repositories\Strategy\PatchMergeTrait;
 
 class CertificateRepository extends Repository
 {

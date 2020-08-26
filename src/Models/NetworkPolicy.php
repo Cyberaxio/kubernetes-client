@@ -1,4 +1,4 @@
-<?php namespace Maclof\Kubernetes\Models;
+<?php namespace Cyberaxio\Kubernetes\Models;
 
 class NetworkPolicy extends Model
 {

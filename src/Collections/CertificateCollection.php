@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\Certificate;
+use Cyberaxio\Kubernetes\Models\Certificate;
 
 class CertificateCollection extends Collection
 {

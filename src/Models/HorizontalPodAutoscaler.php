@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Models;
+<?php namespace Cyberaxio\Kubernetes\Models;
 
-class HorizontalPodAutoscaler extends \Maclof\Kubernetes\Models\Model
+class HorizontalPodAutoscaler extends \Cyberaxio\Kubernetes\Models\Model
 {
 	/**
 	 * The api version.

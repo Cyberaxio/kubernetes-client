@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\ConfigMap;
+use Cyberaxio\Kubernetes\Models\ConfigMap;
 
 class ConfigMapCollection extends Collection
 {

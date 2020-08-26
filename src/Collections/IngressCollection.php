@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\Ingress;
+use Cyberaxio\Kubernetes\Models\Ingress;
 
 class IngressCollection extends Collection
 {

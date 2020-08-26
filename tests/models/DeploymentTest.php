@@ -1,6 +1,6 @@
 <?php
 
-use Maclof\Kubernetes\Models\Deployment;
+use Cyberaxio\Kubernetes\Models\Deployment;
 
 class DeploymentTest extends TestCase
 {

@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\Issuer;
+use Cyberaxio\Kubernetes\Models\Issuer;
 
 class IssuerCollection extends Collection
 {

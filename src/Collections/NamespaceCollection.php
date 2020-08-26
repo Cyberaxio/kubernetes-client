@@ -1,6 +1,6 @@
-<?php namespace Maclof\Kubernetes\Collections;
+<?php namespace Cyberaxio\Kubernetes\Collections;
 
-use Maclof\Kubernetes\Models\NamespaceModel;
+use Cyberaxio\Kubernetes\Models\NamespaceModel;
 
 class NamespaceCollection extends Collection
 {
